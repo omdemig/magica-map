@@ -1,0 +1,31 @@
+
+.mapbox {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-image: url("bg.png");
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#map {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 786px;
+}
+
+@media (max-width: 749px) {
+    .container {
+        display: flex;
+        justify-content: left;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+}

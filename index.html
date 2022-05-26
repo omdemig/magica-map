@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BLUE FORKS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body oncontextmenu="return false;">
+    <div class="container">
+      <div class="mapbox">
+        <img id="map" src="map.png" usemap="#image-map">
+        <map name="image-map">
+          <area id="starter" class="group" alt="Are you Lost?" title="Are you Lost?" coords="145,97,34,25" shape="rect" data-maphilight='{"groupBy":".group", "fillOpacity":"0", "strokeOpacity":"0"}'>
+          <area alt="Astor Place Building (Magica HQ)" title="Astor Place Building (Magica HQ)" coords="285,404,280,537,251,541,308,647,374,643,379,613,452,601,453,583,478,583,484,556,510,556,509,577,580,574,589,605,668,605,668,578,644,557,647,433,569,380,488,365,474,382,463,388,441,376,377,384,396,383,349,393,312,398" shape="poly">
+          <area alt="Scrament Bank Building" title="Scrament Bank Building" coords="654,149,633,418,651,428,647,495,659,508,875,570,915,561,916,545,937,543,947,448,958,400,989,223,919,172,921,124,887,94" shape="poly">
+          <area alt="Quiet Moment Coffee and Soup" title="Quiet Moment Coffee and Soup" coords="41,541,39,490,192,450,197,524" shape="poly">
+          <area alt="Alfonso Commerce Building" title="Alfonso Commerce Building" coords="244,520,2,548,1,810,139,786,186,834,223,812,245,771,288,763,314,776,320,667" shape="poly">
+          <area alt="Dirt Cheap Loans and Launderer's" title="Dirt Cheap Loans and Launderer's" coords="1,811,136,789,162,842,164,865,173,893,210,978,206,1037,188,1000,156,1002,158,990,148,970,117,975,125,993,102,1013,76,1032,73,1068,1,921" shape="poly">
+          <area alt="Brownwater Residence Block" title="Brownwater Residence Block"   coords="82,1030,126,1001,122,977,147,977,153,990,157,1008,189,1004,219,1075,232,1067,246,1083,254,1093,263,1118,261,1163,302,1273,297,1372,281,1375,246,1300,183,1309,175,1352,73,1083,76,1062" shape="poly">
+          <area alt="Mirage Bar" title="Mirage Bar" coords="175,1354,183,1314,246,1306,275,1366,253,1367,254,1396,221,1410,211,1460" shape="poly">
+          <area alt="Noho Grocer's" title="Noho Grocer's" coords="215,1489,222,1409,257,1401,257,1371,276,1371,290,1402,297,1431,311,1463,315,1531,249,1529" shape="poly">
+          <area alt="ONE Modelling Management" title="ONE Modelling Management" coords="89,1534,100,1515,56,1397,1,1416,3,1530" shape="poly">
+          <area alt="In Sacred Light of Wuakeen (Moneylenders)" title="In Sacred Light of Wuakeen (Moneylenders)" coords="59,1389,1,1406,1,1216" shape="poly">
+          <area alt="NYCYAOA Community Centre" title="NYCYAOA Community Centre" coords="311,1261,302,1363,314,1379,336,1378,382,1472,382,1533,602,1512,612,1378,533,1229,424,1240" shape="poly">
+          <area alt="Stairs to Astor Station " title="Stairs to Astor Station " coords="616,1503,616,1520,641,1524,707,1525,702,1499" shape="poly">
+          <area alt="DeMarschino Residence no. 12" title="DeMarschino Residence no. 12" coords="284,1378,301,1375,312,1385,333,1384,377,1477,373,1528,321,1533,315,1466,297,1420" shape="poly">
+          <area alt="Misha Massausers" title="Misha Massausers" coords="619,1388,654,1455,652,1493,608,1504,612,1431" shape="poly">
+          <area alt="Astor Station Sandwiches" title="Astor Station Sandwiches" coords="655,1499,704,1489,713,1416,680,1363,629,1366,625,1393,656,1447" shape="poly">
+          <area alt="Case Magazines Backorder Warehouses" title="Case Magazines Backorder Warehouses" coords="554,1252,630,1243,650,1279,643,1318,674,1357,629,1361,619,1383,584,1312" shape="poly">
+          <area alt="Clever Boy Curry" title="Clever Boy Curry" coords="553,1250,603,1242,561,1167,471,1182,460,1171,439,1177,435,1196,377,1208,373,1226,385,1240,440,1238,531,1221" shape="poly">
+          <area alt="Friends of the Owlbear Society" title="Friends of the Owlbear Society" coords="354,1213,354,1142,443,1125,455,1111,466,1115,536,1115,557,1145,555,1165,470,1177,464,1167,436,1176,435,1194,376,1204,367,1218" shape="poly">
+          <area alt="Pearl Art Supplies" title="Pearl Art Supplies" coords="539,1110,537,1076,517,1048,501,1049,457,1049,429,1054,407,1062,372,1059,349,1077,342,1177,349,1184,355,1137,442,1125,443,1109,470,1105,470,1114" shape="poly">
+          <area alt="Eva Presentuber Gallery" title="Eva Presentuber Gallery" coords="312,1015,343,1008,343,995,371,995,378,1005,418,1002,420,991,442,983,451,991,484,984,521,1041,492,1046,448,1046,417,1055,395,1061,363,1062,346,1074,342,1156,325,1103,320,1066,308,1044" shape="poly">
+          <area alt="Mordencai Day Surgery and Pharmacy" title="Mordencai Day Surgery and Pharmacy" coords="294,980,308,819,354,818,374,803,373,784,403,810,421,836,417,871,446,908,438,973,409,999,385,1001,371,987,341,995,324,1008,303,1017" shape="poly">
+          <area alt="Held Hold Alley" title="Held Hold Alley" coords="213,1023,242,1018,246,1028,293,1013,302,1024,319,1105,336,1168,349,1212,383,1240,303,1262,268,1158,271,1112,245,1070,215,1050" shape="poly">
+          <area alt="Gingko Allfaith's Church and Worship Dome" title="Gingko Allfaith's Church and Worship Domey" coords="276,770,242,783,224,821,211,824,193,837,152,806,167,850,183,896,199,940,213,1019,248,1017,274,1014,294,1008,292,905,294,850,299,816,342,811,319,780,303,772" shape="poly">
+          <area alt="Aloune Av." title="Aloune Av." coords="5,939,230,1534,114,1533,1,1171" shape="poly">
+          <area alt="Goodberry Square" title="Goodberry Square" coords="320,651,370,647,368,680,369,713,324,740,327,693" shape="poly">
+          <area alt="6th Street North" title="6th Street North" coords="513,1533,610,1519,628,1529,707,1524,708,1497,738,1491,761,1535,713,1535,607,1535" shape="poly">
+          <area alt="Corner of Bond Av. and 5th " title="Corner of Bond Av. and 5th " coords="814,1471,742,1487,770,1533,862,1529" shape="poly">
+          <area alt="6th Street South" title="6th Street South" coords="847,1496,884,1533,1092,1533,1375,1448,1306,1387,1166,1416,1087,1449" shape="poly">
+          <area alt="Corner of Astor Pl. and 5th" title="Corner of Astor Pl. and 5th" coords="1369,1346,1294,1368,1375,1439,1413,1465,1443,1514,1463,1519,1462,1390,1416,1395" shape="poly">
+          <area alt="Astor Place" title="Astor Place" coords="1366,1342,1295,1363,1311,1288,1308,1258,1241,1188,1185,1126,1134,1086,1087,1043,1088,1007,999,925,954,872,932,875,916,849,871,778,832,725,774,678,738,659,704,610,677,602,671,570,651,554,649,510,804,656,791,684,814,707,863,711,947,822,1031,914,1043,944,1091,995,1108,1030,1123,1034,1175,1091,1202,1101,1250,1154,1307,1226,1325,1271" shape="poly">
+          <area alt="7th Street" title="7th Street" coords="1241,539,1136,553,1088,556,1077,637,1225,601" shape="poly">
+          <area alt="Astor Building Square" title="Astor Building Square" coords="669,518,871,578,910,571,901,638,881,633,828,642,793,636" shape="poly">
+          <area alt="Empty Carpark Lot (Cursed?)" title="Empty Carpark Lot (Cursed?)" coords="1378,828,1304,843,1316,861,1312,885,1339,914,1368,915,1350,889,1405,878,1456,853,1409,822" shape="poly">
+          <area alt="Bond Av." title="Bond Av." coords="332,744,319,753,351,805,367,784,379,770,395,778,407,801,429,828,424,866,451,902,446,972,460,980,485,976,526,1038,543,1073,552,1116,606,1236,628,1229,651,1264,649,1315,675,1347,716,1404,713,1494,816,1463,701,1285,636,1159,587,1052,522,936,470,847,408,779,368,730,354,725" shape="poly">
+          <area alt="Gnomish Museum of Heritage and Bastian's Park" title="Gnomish Museum of Heritage and Bastian's Park" coords="1458,1382,1418,1387,1369,1333,1351,1297,1325,1260,1331,1229,1264,1163,1269,1123,1286,1121,1372,1108,1388,1119,1414,1070,1401,1041,1406,1020,1379,986,1387,958,1396,954,1401,947,1462,931,1461,958,1462,997,1463,995,1462,1110" shape="poly">
+          <area alt="Wanderefoot's Hostel and Bar" title="Wanderefoot's Hostel and Bar" coords="1123,1533,1162,1522,1193,1514,1267,1489,1308,1535,1324,1476,1392,1461,1461,1532" shape="poly">
+          <area alt="Second Chance Spell Academy" title="Second Chance Spell Academy" coords="1222,812,1258,808,1308,866,1307,893,1331,920,1361,922,1379,929,1378,906,1360,896,1426,879,1463,867,1463,922,1384,946,1357,919,1302,922,1267,922,1247,901,1260,848" shape="poly">
+          <area alt="Bolt Warehouse" title="Bolt Warehouse" coords="1237,1110,1265,1048,1344,1031,1395,1040,1406,1066,1387,1112,1370,1099,1271,1114,1259,1146,1232,1119" shape="poly">
+          <area alt="Gene Frankel Theatre and Rehersal Space" title="Gene Frankel Theatre and Rehersal Space" coords="1209,1093,1237,1013,1379,991,1399,1018,1396,1036,1343,1026,1264,1044,1231,1115" shape="poly">
+          <area alt="F. F. Feliz Defense Council" title="F. F. Feliz Defense Council" coords="1297,927,1322,927,1334,923,1361,923,1379,949,1372,985,1340,992,1303,959,1287,964" shape="poly">
+          <area alt="Neverember Nails" title="Neverember Nails" coords="1183,1071,1206,986,1247,982,1249,970,1281,968,1304,966,1331,996,1233,1010,1203,1094" shape="poly">
+          <area class="group" id="start1" alt="Wig Junction Wig Shop" title="Wig Junction Wig Shop" coords="1149,1042,1175,941,1257,937,1274,958,1274,968,1251,967,1245,980,1207,980,1176,1065,1162,1059" shape="poly" data-maphilight='{"groupBy":".group"}'>
+          <area alt="Urchis' Residence" title="Urchis' Residence" coords="1130,1010,1143,925,1165,913,1184,912,1188,904,1220,904,1231,909,1246,900,1262,924,1258,935,1178,941,1148,1034" shape="poly">
+          <area alt="K-Bonda Mega Market" title="K-Bonda Mega Market" coords="1042,936,1065,842,1075,834,1161,912,1141,926,1126,998,1125,1024,1100,1027,1096,991" shape="poly">
+          <area alt="BIG SAUCE BUDGET BAR" title="BIG SAUCE BUDGET BAR" coords="1187,777,1158,782,1148,802,1172,822,1201,824,1207,803,1256,848,1245,895,1231,904,1205,897,1180,900,1167,910,1079,831,1097,766,1130,747,1149,740,1157,753,1175,746,1184,753" shape="poly">
+          <area alt="Cottage of Crisper" title="Cottage of Crisper" coords="1211,773,1192,777,1161,786,1150,803,1172,821,1197,821,1203,799,1216,805,1228,804,1224,790" shape="poly">
+          <area alt="Maude Mage Student Housing" title="Maude Mage Student Housing" coords="1046,907,1061,834,1074,830,1086,789,1034,799,1018,887,1039,905" shape="poly">
+          <area alt="Hudson East Apartments" title="Hudson East Apartments" coords="1099,756,1088,747,1044,753,1042,768,1030,756,1024,773,1009,774,993,865,1013,884,1030,794,1087,784" shape="poly">
+          <area alt="El Prisca Apartments" title="El Prisca Apartments" coords="971,840,986,861,1004,778,1018,766,1029,751,1037,753,1047,750,1093,744,1105,757,1148,737,1157,746,1168,744,1156,725,1112,730,1074,735,1057,731,1028,738,1011,738,990,752" shape="poly">
+          <area class="group" id="start2" alt="FRD Records and Distrubtuon" title="FRD Records and Distrubtuon" coords="965,725,1062,706,1068,714,1128,704,1139,719,1115,729,1066,729,1043,728,1016,732,989,746,968,838,949,821" shape="poly" data-maphilight='{"groupBy":".group"}'>
+          <area alt="Elf Liquorice Bar &amp; Grill" title="Elf Liquorice Bar &amp; Grill" coords="943,693,1025,690,1039,709,956,725,933,712" shape="poly">
+          <area alt="Alphabet Jones Theatre " title="Alphabet Jones Theatre " coords="914,703,915,678,993,668,1013,663,1071,656,1086,668,1125,668,1130,683,1128,700,1071,710,1065,703,1043,708,1028,688,981,687,940,691,928,710" shape="poly">
+          <area alt="Independent Council of Legal Resources" title="Independent Council of Legal Resources" coords="893,693,897,651,978,640,1003,639,1031,640,1035,651,1053,648,1057,654,987,665,949,667,911,674,909,698" shape="poly">
+          <area alt="Council Construction Site F" title="Council Construction Site F" coords="896,645,889,636,872,639,854,640,836,648,823,646,814,646,812,659,802,665,797,684,818,705,870,712,884,698,890,692,892,657" shape="poly">
+          <area alt="Le Petit 999" title="Le Petit 999" coords="1137,675,1132,700,1132,669,1077,654,1077,639,1146,670,1190,662,1222,660,1269,680,1260,718,1205,727,1183,724,1143,714,1135,704,1136,691" shape="poly">
+          <area alt="Temple of Astral Martial Arts" title="Temple of Astral Martial Arts" coords="1269,704,1265,721,1192,730,1211,748,1192,768,1219,774,1237,800,1258,804,1295,840,1346,831,1356,816,1370,807,1353,790,1353,779,1317,742,1297,735,1306,725,1317,721" shape="poly">
+          <area alt="NYC InterRealm Business School" title="NYC InterRealm Business School" coords="906,641,920,554,940,549,964,395,972,387,977,360,990,356,991,343,1042,343,1057,363,1047,435,1101,456,1073,651,1056,644,1038,647,1031,637,986,635,921,646" shape="poly">
+          <area alt="WUMBA Juice" title="WUMBA Juice" coords="1463,666,1443,773,1463,773" shape="poly">
+          <area alt="Dwarven Friendship Embassy" title="Dwarven Friendship Embassy" coords="1413,650,1463,599,1461,661,1439,768,1394,754" shape="poly">
+          <area alt="Yum Tasty Noodle Bar" title="Yum Tasty Noodle Bar" coords="1435,585,1405,597,1368,635,1352,707,1387,753,1413,648,1461,595" shape="poly">
+          <area alt="Big's Bagels" title="Big's Bagels" coords="1276,699,1298,616,1342,594,1375,624,1348,707,1321,721,1289,706" shape="poly">
+          <area alt="Green House @ Seventh Street" title="Green House @ Seventh Street" coords="1276,360,1373,355,1383,346,1405,349,1426,373,1426,384,1443,380,1449,386,1461,386,1464,592,1440,584,1408,595,1377,622,1360,606,1342,591,1294,613,1282,657,1275,680,1202,651,1226,624" shape="poly">
+          <area alt="Club Andelone" title="Club Andelone" coords="1464,256,1445,326,1452,338,1439,374,1462,384,1464,303" shape="poly">
+          <area alt="Importer Exporter's Collective" title="Importer Exporter's Collective" coords="1394,291,1437,328,1463,238,1463,189,1461,157,1445,170,1426,170" shape="poly">
+          <area alt="Unnamed Foot Spa" title="Unnamed Foot Spa" coords="1368,166,1414,199,1391,272,1369,261,1375,237,1352,216,1344,216,1337,213,1340,181" shape="poly">
+          <area alt="Suncatcher Apartment Complex" title="Suncatcher Apartment Complex" coords="1374,346,1392,280,1372,266,1369,253,1370,238,1350,220,1334,213,1333,230,1295,244,1277,240,1262,235,1247,225,1259,200,1246,203,1250,195,1222,185,1211,198,1229,221,1229,249,1188,251,1156,233,1165,217,1135,222,1128,211,1104,222,1099,253,1082,264,1061,358,1051,433,1105,454,1093,526,1090,552,1118,552,1154,547,1188,543,1228,535,1240,535,1273,359" shape="poly">
+          <area alt="Cat Sratch Tequila Distellery" title="Cat Sratch Tequila Distellery" coords="1253,227,1271,171,1308,159,1335,181,1330,231,1287,241,1282,233,1269,234" shape="poly">
+          <area alt="Wooooah Goodman's" title="Wooooah Goodman's" coords="1171,207,1163,234,1192,249,1227,247,1225,223,1207,200" shape="poly">
+          <area alt="Cult of Jubilex" title="Cult of Jubilex" coords="1021,239,1021,243,1034,250,1046,253,1051,248,1079,260,1095,251,1103,221,1122,211,1139,217,1162,213,1171,200,1165,181,1114,164,1106,178,1087,178,1083,203,1034,219,1033,237" shape="poly">
+          <area alt="AWSNM Insurance" title="AWSNM Insurance" coords="994,220,1011,224,1020,235,1013,247,1025,252,1040,257,1052,252,1079,262,1059,357,1043,341,999,341,987,343,986,355,973,358,972,387,963,390,973,324,987,247" shape="poly">
+          <area alt="Fear &amp; Loathing Clothing" title="Fear &amp; Loathing Clothing" coords="1377,346,1392,294,1422,321,1448,336,1437,378,1422,365,1413,354,1401,343" shape="poly">
+          <area alt="Serene Court Apartments" title="Serene Court Apartments" coords="899,1477,846,1488,742,1331,757,1203,783,1198,783,1181,788,1169,822,1167,827,1156,853,1140,883,1136,906,1175,902,1199,898,1226,925,1270,934,1284,959,1284,969,1312,978,1337,985,1348,959,1468,921,1477,909,1480" shape="poly">
+          <area alt="Black Box Books and Whisky" title="Black Box Books and Whisky" coords="709,1122,698,1214,696,1236,685,1248,704,1276,717,1277,712,1301,733,1324,740,1323,756,1200,780,1195,780,1171,818,1165,822,1156,837,1147,875,1135,854,1102,802,1105,802,1129,783,1125,771,1116,755,1117,747,1114" shape="poly">
+          <area alt="Rakshasa House" title="Rakshasa House" coords="650,1187,660,1109,703,1079,752,1092,760,1108,709,1121,690,1223,677,1231" shape="poly">
+          <area alt="Lute and Boot Repairs" title="Lute and Boot Repairs" coords="707,1001,618,1016,614,1071,647,1175,660,1102,678,1092,707,1072,751,1087,753,1067,731,1035" shape="poly">
+          <area alt="Flying Elephant Productions" title="Flying Elephant Productions" coords="536,877,599,867,629,859,676,863,704,913,702,924,715,931,724,946,721,1010,707,1000,695,999,685,986,596,993,588,1028,530,942" shape="poly">
+          <area alt="Residence Block 96" title="Residence Block 96" coords="527,912,531,876,636,856,610,824,623,819,616,807,599,789,594,781,570,769,574,758,557,757,519,763,473,772,464,812,487,867" shape="poly">
+          <area alt="T.R.O Tax Accountants" title="T.R.O Tax Accountants" coords="448,748,446,790,461,807,464,774,557,754,545,737" shape="poly">
+          <area alt="Sigmund Hot Tamale" title="Sigmund Hot Tamale" coords="418,702,412,770,443,791,446,747,543,733,519,686,461,695,443,693" shape="poly">
+          <area alt="Pagaent Print Shop" title="Pagaent Print Shop" coords="382,616,371,724,409,776,420,695,492,689,488,648,452,605" shape="poly">
+          <area alt="Astor Place Apartments" title="Astor Place Apartments" coords="455,588,456,605,491,651,495,685,518,680,528,686,528,701,599,698,603,624,596,609,583,606,576,579,511,583,505,562,487,560,482,584" shape="poly">
+          <area alt="Dressmaker's Union" title="Dressmaker's Union" coords="605,618,605,638,602,694,650,678,681,664,704,653,734,662,696,612" shape="poly">
+          <area alt="Lois and Boris Dressmakers" title="Lois and Boris Dressmakers" coords="646,690,654,678,704,656,746,668,751,676,761,676,779,694,755,700,737,709,693,713,663,716,630,704,630,697" shape="poly">
+          <area alt="Elbenza's Residence" title="Elbenza's Residence" coords="597,996,593,1029,612,1051,616,1015,694,1001,685,987" shape="poly">
+          <area alt="Spleen Comedy Club" title="Spleen Comedy Club" coords="663,720,658,748,747,732,805,715,787,693,760,702,729,711,684,717" shape="poly">
+          <area alt="XJOBA Experiemental Theatre" title="XJOBA Experiemental Theatre" coords="806,715,779,726,747,736,633,753,627,804,652,833,691,842,696,829,725,821,727,793,783,782,784,771,831,763,828,777,859,771,849,746,826,723" shape="poly">
+          <area alt="Palace 9 Bar" title="Palace 9 Bar" coords="787,772,784,781,802,792,828,793,840,803,862,802,871,798,857,775,830,780,823,767" shape="poly">
+          <area alt="Ayoubi Architects" title="Ayoubi Architects" coords="734,796,727,820,755,815,812,807,799,794,784,784" shape="poly">
+          <area alt="Faceless Nameless Inc." title="Faceless Nameless Inc." coords="699,829,691,882,715,925,731,941,737,891,765,881,765,845,751,819" shape="poly">
+          <area alt="Bargain Hardwares" title="Bargain Hardwares" coords="872,802,857,806,840,805,826,794,808,797,819,810,756,819,769,846,766,885,788,881,792,845,813,842,823,829,836,829,856,825" shape="poly">
+          <area alt="Dame Mage's Juice" title="Dame Mage's Juice" coords="746,894,734,942,740,948,747,912,775,900,817,889,836,881,874,857,914,864,902,843,875,837,854,828,828,834,814,843,797,848,788,882" shape="poly">
+          <area alt="Yo-C Salon" title="Yo-C Salon" coords="877,860,927,869,925,882,950,881,965,899,915,909,909,904,890,908,883,913,779,930,778,951,742,960,749,913,775,904,819,895,848,874" shape="poly">
+          <area alt="Rory Celentino Yoga and Wellness" title="Rory Celentino Yoga and Wellness" coords="782,931,881,917,892,910,910,908,915,914,973,901,995,933,1047,981,973,993,934,998,907,1001,892,958,850,962,819,963,779,962" shape="poly">
+          <area alt="MALR Design Studio" title="MALR Design Studio" coords="987,1021,981,1059,1081,1041,1087,1011,1057,985,1030,989,1004,995,976,998" shape="poly">
+          <area alt="Welton Watchmaker's Residency" title="Welton Watchmaker's Residency" coords="937,1005,953,1023,945,1065,977,1063,986,1018,973,1001" shape="poly">
+          <area alt="Spores Bar" title="Spores Bar" coords="854,1017,933,1006,950,1027,942,1067,911,1070,872,1048" shape="poly">
+          <area alt="Hallmarker's Residence" title="Hallmarker's Residence" coords="909,1072,965,1070,984,1061,1079,1046,1106,1072,1039,1082,1007,1087,993,1099,918,1103" shape="poly">
+          <area alt="Skypod Artificer's Group" title="Skypod Artificer's Group" coords="915,1105,892,1126,892,1147,909,1176,903,1222,925,1140,984,1126,1024,1114,1040,1114,1060,1114,1062,1105,1075,1103,1088,1100,1101,1108,1113,1099,1131,1095,1114,1071,1100,1079,1015,1090,996,1100" shape="poly">
+          <area alt="Banned Records" title="Banned Records" coords="1086,1104,1103,1113,1117,1102,1145,1099,1162,1121,1127,1132,1119,1127,1103,1135,1091,1127,1088,1114" shape="poly">
+          <area alt="The Copper Union" title="The Copper Union" coords="1076,1254,1092,1269,1107,1280,1116,1307,1089,1432,1288,1373,1307,1268,1175,1128,1120,1134,1104,1139,1076,1112,1036,1121,994,1127,987,1141,928,1145,905,1231,922,1258,944,1170,1003,1156,1029,1183,1039,1203,1079,1230" shape="poly">
+          <area class="group" id="start3" alt="Kilbreda's Licks" title="Kilbreda's Licks" coords="999,1163,946,1175,925,1261,937,1281,960,1276,972,1195,1011,1181" shape="poly" data-maphilight='{"groupBy":".group"}'>
+          <area alt="Kraus Apartments" title="Kraus Apartments" coords="1018,1186,977,1200,962,1280,986,1340,978,1401,1013,1439,1084,1434,1108,1291,1069,1239" shape="poly">
+          <area alt="Council Construction Site A" title="Council Construction Site A" coords="978,1408,1012,1448,1009,1460,968,1466" shape="poly">
+        </map>
+      </div>
+    </div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.rwdImageMaps.min.js"></script>
+    <script src="jquery.maphilight.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
