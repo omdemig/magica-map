@@ -3,7 +3,6 @@
     .container {
         display: flex;
         justify-content: left;
-        overflow: hidden;
     }
 }
 
@@ -11,7 +10,6 @@
     .container {
         display: flex;
         justify-content: center;
-        overflow: hidden;
     }
 }
 
