@@ -13,6 +13,33 @@
     }
 }
 
+@media (hover: none) {
+    .banner {
+        display: flex;
+        z-index: 100;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        padding: 10px;
+        height: 50px;
+        width: 60%;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-family: stack-fill, sans-serif; 
+        color: #ffff;
+        background: #1f00e5ec;
+    }
+}
+
+@media (hover: hover) {
+    .banner {
+        display: none;
+    }
+}
+
 .mapbox {
     display: flex;
     justify-content: center;

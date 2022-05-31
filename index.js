@@ -12,12 +12,11 @@ $(document).ready(function(e) {
         $("#start1, #start2, #start3").data("maphilight",starterData);
     }); 
 
-    // when we right click (or long press on touchscreen!)
-    $('area').on("contextmenu", function(e){
-        // don't show context menu
+    // for friends with no hover
+    $('area').on("click", function(e){
         e.preventDefault(); 
-        // instead show the image map area's title
-        alert(e.currentTarget.title);
+        // show the image map area's title in a banner box
+        $(".banner").text(e.currentTarget.title);
     });
 
 });
