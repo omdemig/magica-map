@@ -1,47 +1,80 @@
-
-@media (max-width: 749px) {
-    .container {
-        display: flex;
-        justify-content: left;
+@media (hover: hover) { 
+    @media (max-width: 749px) {
+        .container {
+            display: flex;
+            z-index: -1;
+            justify-content: left;
+            margin: 0 auto;
+        }
     }
-}
-
-@media (min-width: 750px) {
-    .container {
-        display: flex;
-        justify-content: center;
+    
+    @media (min-width: 750px) {
+        .container {
+            display: flex;
+            z-index: -1;
+            justify-content: center;
+            margin: 0 auto;
+        }
     }
-}
 
-@media (hover: none) {
-    .banner {
-        display: flex;
-        z-index: 100;
-        margin: 0 auto;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        padding: 10px;
-        height: 50px;
-        width: 60%;
-        bottom: 30px;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-family: stack-fill, sans-serif; 
-        color: #ffff;
-        background: #1f00e5ec;
-    }
-}
-
-@media (hover: hover) {
     .banner {
         display: none;
+    }
+    
+}
+
+@media (hover: none) { 
+    @media (max-width: 749px) {
+        .container {
+            display: flex;
+            z-index: -1;
+            justify-content: left;
+            margin: 0 auto;
+        }
+    
+        .banner {
+            display: flex;
+            position: fixed;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            top: 0;
+            height: auto;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: justify right;
+            font-family: stack-fill, sans-serif; 
+            color: #2000e5;
+            background: rgba(255, 255, 255, 0.814);
+        }
+    }
+    
+    @media (min-width: 750px) {
+        .container {
+            display: flex;
+            z-index: -1;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    
+        .banner {
+            display: flex;
+            position: sticky;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            top: 0;
+            height: auto;
+            font-family: stack-fill, sans-serif; 
+            color: #2000e5;
+            background: rgba(255, 255, 255, 0.814);
+        }
     }
 }
 
 .mapbox {
     display: flex;
+    z-index: 0;
     justify-content: center;
     padding: 50px;
     background-image: url("bg.png");
@@ -52,7 +85,9 @@
     
 #map {
     display: flex;
+    z-index: 0;
     justify-content: center;
+    position: absolute;
     min-width: 750px;
     max-height: 786px;
 }
